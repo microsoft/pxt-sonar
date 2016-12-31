@@ -1,11 +1,10 @@
 {
     "name": "pxt-sonar",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A PXT package to use sonar sensors such as the HC-SR04",
     "license": "MIT",
     "dependencies": {
-        "microbit": "*",
-        "microbit-radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",

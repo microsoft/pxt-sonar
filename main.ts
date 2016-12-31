@@ -1,6 +1,9 @@
 enum PingUnit {
+    //% block="μs"
     MicroSeconds,
+    //% block="cm"
     Centimeters,
+    //% block="inches"
     Inches
 }
 
