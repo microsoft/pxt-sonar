@@ -30,7 +30,7 @@ namespace sonar {
         pins.digitalWritePin(trig, 0);
 
         // read pulse
-        let d = pins.pulseIn(echo, PulseValue.High, maxCmDistance * 58);
+        const d = pins.pulseIn(echo, PulseValue.High, maxCmDistance * 58);
 
         switch (unit) {
             case PingUnit.Centimeters: return d / 58;

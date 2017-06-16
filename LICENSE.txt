@@ -1,4 +1,4 @@
-PXT - Programming Experience Toolkit
+MakeCode/PXT - Programming Experience Toolkit
 
 The MIT License (MIT)
 
