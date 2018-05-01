@@ -33,8 +33,8 @@ namespace sonar {
         const d = pins.pulseIn(echo, PulseValue.High, maxCmDistance * 58);
 
         switch (unit) {
-            case PingUnit.Centimeters: return d / 58;
-            case PingUnit.Inches: return d / 148;
+            case PingUnit.Centimeters: return Math.idiv(d, 58);
+            case PingUnit.Inches: return Math.idiv(d, 148);
             default: return d ;
         }
     }
