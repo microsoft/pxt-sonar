@@ -1,5 +1,6 @@
-# pxt-sonar
-A PXT package to use sonar sensors (ping) such as the HC-SR04
+# pxt-sonar [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sonar)
+
+A MakeCode package to use sonar sensors (ping) such as the HC-SR04.
 
 ## Usage
 
@@ -26,7 +27,3 @@ MIT
 ## Supported targets
 * for PXT/microbit
 (The metadata above is needed for package search.)
-
-```package
-sonar=github:Microsoft/pxt-sonar
-```
