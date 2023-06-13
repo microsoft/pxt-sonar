@@ -1,6 +1,6 @@
 {
     "name": "pxt-sonar",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A MakeCode package to use sonar sensors",
     "license": "MIT",
     "dependencies": {
